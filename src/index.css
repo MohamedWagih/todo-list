@@ -1,0 +1,119 @@
+/*	Imported from::: https://uigradients.com/#BoraBora 	*/
+body{
+  background: #00d2ff;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #3a7bd5, #00d2ff);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #3a7bd5, #00d2ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  /* font-family: sans-serif; */
+}
+
+.container{
+  width: 360px !important;
+  margin-top: 100px !important;
+  padding: 0 !important;
+}
+
+h1{
+  /* background: #2980b9; */
+  background: #3a7bd5;
+	color: #fff;
+	text-transform: uppercase;
+	margin: 0;
+	padding: 10px 20px;	
+	font-weight: 700;
+	font-size: 24px;
+}
+.row{
+  width: 360px;
+  margin-left: 0;
+}
+.col-6{
+  padding: 0;
+}
+p{
+  background: #3a7bd5;
+  color: #fff;
+  /* text-decoration: underline; */
+  /* padding-left: 20px; */
+  font-weight: 500;
+  text-align: center;
+  /* width: 50%;
+  display: inline-flex */
+}
+
+
+
+input{
+  /* width: 100% !important; */
+  height: 50px !important;
+	background: #f7f7f7 !important;
+	color: #2980b9 !important;
+	font-size: 18px !important;
+	padding: 13px 13px 13px 20px !important;
+	box-sizing: border-box !important;
+  border: 3px solid rgba(0,0,0,0) !important;
+  border-radius: 0 !important;
+	/* border: 3px solid rgba(0,0,0,0) !important; */
+}
+
+input:focus{
+	border: 3px solid #2980b9 !important;
+	background: #fff !important;
+	outline: none !important;
+}
+
+ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+li{
+  height: 40px;
+	line-height: 40px;
+	background: #fff;
+	color: #666;
+}
+
+li:nth-of-type(2n){
+	background: #f7f7f7;
+}
+
+.Completed{
+	color: gray;
+	text-decoration: line-through;
+}
+
+span{
+	width: 0px;
+	height: 40px;
+	opacity: 0;
+	background: #e74c3c;
+	color: #fff;
+	display: inline-block;
+	text-align: center;
+	margin-right: 20px;
+	transition: 0.2s linear;
+}
+
+li:hover span{
+	width: 40px;
+	opacity: 1;
+}
+
+#add-todo{
+	float: right;
+  /* transition: 2s linear; */
+  /* background: #2980b9;
+  color: #fff; */
+  background: #f7f7f7;
+	color: #666;
+  margin: 0;
+	padding: 15px 15px;	
+	font-weight: normal;
+	font-size: 18px;
+}
